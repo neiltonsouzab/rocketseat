@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 0;
+}
+
+html, body, #root {
+  height: 100%;
+
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+div.container {
+  width: 100%;
+  max-width: 1120px;
+  padding: 0 20px;
+  margin: 40px auto;
+}
+
+div.container h1 {
+  color: #7159C1;
+}
+
+div.container form {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 32px;
+}
+
+div.container form input {
+  height: 60px;
+  margin-bottom: 16px;
+  padding: 10px 16px;
+
+  border: 1px solid #eee;
+  border-radius: 4px;
+
+  font-size: 20px;
+  color: #333;
+}
+
+div.container form input::placeholder {
+  color: #aaa;
+}
+
+div.container form button {
+  width: 200px;
+  height: 60px;
+
+  border: none;
+  border-radius: 4px;
+
+  background: #7159C1;
+  color: #FFF;
+
+  font-size: 18px;
+
+  transition: filter 0.3s;
+}
+
+div.container form button:hover {
+  filter: brightness(0.9);
+}
+
+div.container ul {
+  margin-top: 24px;
+}
+
+div.container ul li {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 16px;
+  margin-bottom: 16px;
+
+  background: #eee;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+div.container ul li div {
+  display: flex;
+  flex-direction: column;
+}
+
+div.container ul li div strong {
+  color: #333;
+  font-size: 20px;
+
+  margin-bottom: 8px;
+}
+
+div.container ul li div span {
+  color: #888;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+div.container ul li div a {
+  color: #7159C1;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+div.container ul li > button {
+  border: none;
+  transition: filter 0.3s;
+}
+
+div.container ul li > button svg:hover {
+  transition: filter 0.3s;
+  filter: brightness(0.9);
+}
+
+div.container ul li div > button {
+  display: flex;
+  align-items: center;
+
+  width: 40px;
+  border: none;
+}
+
+div.container ul li div > button svg {
+  margin-left: 8px;
+}
+
